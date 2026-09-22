@@ -1,7 +1,8 @@
 {{
     config(
         materialized='incremental',
-        unique_key='empno'
+        unique_key='empno',
+        on_schema_change='append_new_columns'
     )
 }}
 
