@@ -1,0 +1,1 @@
+select * from dev_db.dev_schema.customers;
